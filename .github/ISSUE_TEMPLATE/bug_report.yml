@@ -1,0 +1,55 @@
+name: 'Bug report'
+description: Report errors or unexpected behavior
+labels: [bug, needs triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Before you report a bug - self check (required)
+        - [ ] Ok with `flutter doctor`
+        - [ ] Checked the documentation. Couldn't find the solution.
+        - [ ] Searched currently opened and closed issues by relevant keywords. Couldn't find similar one.
+
+  - type: input
+    attributes:
+      label: Package version
+      placeholder: '0.0.1'
+      description: |
+        You can find the version in the `pubspec.yaml`
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Project Setting that worth mention
+      placeholder: Relevant package settings, device, flutter, dart version etc
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      placeholder: What were you expecting?
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      placeholder: What happened instead?
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Steps to reproduce (Code)
+        ```dart
+        // here
+        ```
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Screenshots (optional)
+        <here>
