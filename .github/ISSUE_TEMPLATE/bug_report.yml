@@ -2,13 +2,16 @@ name: 'Bug report'
 description: Report errors or unexpected behavior
 labels: [bug, needs triage]
 body:
-  - type: markdown
+  - type: checkboxes
     attributes:
-      value: |
-        ### Before you report a bug - self check (required)
-        - [ ] Ok with `flutter doctor`
-        - [ ] Checked the documentation. Couldn't find the solution.
-        - [ ] Searched currently opened and closed issues by relevant keywords. Couldn't find similar one.
+      label: Before you report a bug - self check (required)
+      options:
+        - label: Ok with `flutter doctor`
+          required: true
+        - label: Checked the documentation. Couldn't find the solution.
+          required: true
+        - label: Searched currently opened and closed issues by relevant keywords. Couldn't find similar one.
+          required: true
 
   - type: input
     attributes:
@@ -40,16 +43,9 @@ body:
     validations:
       required: true
 
-  - type: markdown
+  - type: textarea
     attributes:
-      value: |
-        ### Steps to reproduce (Code)
-        ```dart
-        // here
-        ```
-
-  - type: markdown
-    attributes:
-      value: |
-        ### Screenshots (optional)
-        <here>
+      label: Steps to reproduce (Code)
+      placeholder: Please use code block
+    validations:
+      required: false
