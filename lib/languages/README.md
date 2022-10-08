@@ -24,10 +24,16 @@
     - If your data doesn't fit with the other data in file, please consider find other file or create one
 
 ## Create file and add to barrel file
-- If you created a new file, then you must add that file to a barrel file `[language_code].dart` which is located under language directory.
+- If you created a new file, then you must add that file to a barrel file `[language_code].dart` which is located under each language directory.
 
 ## Add new language directory and add to barrel file
-- If you added a new language, then you must add that language code name to a barrel file `languages.dart` which is located under language directory.
+- If you added a new language, then you must add that language code name to a barrel file `languages.dart` which is located under languages directory.
+
+## Add language data according to it's type
+- Each language may have different parts of speech.
+- If you want to add certain type of language data(ex: adjectives regards on emotion), please create or use `[language_code]/[it's type]/[category_name].dart` file
+    - ex: `kor/adjective/emotion.dart`
+    - ex: `kor/noun/animal.dart`
 
 ## Don't add anything personal
 
