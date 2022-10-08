@@ -29,6 +29,11 @@
     - ex: `kor/adjective/emotion.dart`
     - ex: `kor/noun/animal.dart`
 
+## Use `[language_code][parts_of_speech][category_name]` in Camel Case as Dart Map object in a language file
+- Since this package can use same category name in any parts of language directory, you must name the individual language object by applying this rule.
+    - ex: korNounAnimal (Korean - Noun - Animal)
+    - ex: engVerbWorkout (English - Verb - Workout)
+
 ## Create file and add to barrel file
 - If you created a new file, then you must add that file to a barrel file `[language_code]/[it's_type]/[it's_type].dart`. Also, make sure that the barrel file is added in `[language_code]/[language_code].dart` barrel file.
 
