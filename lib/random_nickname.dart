@@ -1,8 +1,5 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
+/// Generates random nickname
 library random_nickname;
 
+export 'languages/languages.dart';
 export 'src/random_nickname_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.

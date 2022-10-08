@@ -1,7 +1,8 @@
 /// Language : kor
 /// Category : Animal
+/// Parts of speech : Noun
 /// Notice : Please don't add anything except [animal]
-const List<String> animal = [
+const List<String> korNounAnimal = [
   "강아지",
   "개",
   "개구리",
