@@ -1,13 +1,11 @@
 name: random_nickname
-description: A starting point for Dart libraries or applications.
-version: 1.0.0
-# homepage: https://www.example.com
+description: a Dart package that provides random nickname with various languages.
+version: 0.0.1
+repository: https://github.com/Holder-inc/random_nickname
+issue_tracker: https://github.com/Holder-inc/random_nickname/issues
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
-
-# dependencies:
-#   path: ^1.8.0
 
 dev_dependencies:
   lints: ^2.0.0
