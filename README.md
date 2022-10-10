@@ -23,7 +23,7 @@ print(randomNickname([korAdjectiveEmotion, korNounAnimal])); // ex: 행복한 �
 ```
 
 ## 🙏🙏🙏 Help with Language data contribution! 🙏🙏🙏
-__We need your help!__ `random_nickname` aims to be not just monolingual, but multilingual package.(in a sense that human language that we handle)
+__We need your help!__ `random_nickname` aims to be not just monolingual, but multilingual package.(in terms of human languages for nickname)
 
 If you fluent with any language, please consider contributing with your knowledge.
 
