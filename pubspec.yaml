@@ -1,11 +1,11 @@
 name: random_nickname
 description: a Dart package that provides random nickname with various languages.
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/Holder-inc/random_nickname
 issue_tracker: https://github.com/Holder-inc/random_nickname/issues
 
 environment:
-  sdk: '>=2.18.2 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 dev_dependencies:
   lints: ^2.0.0
