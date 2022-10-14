@@ -3,6 +3,9 @@
 
 ## Features
 ### Available Language Data
+- English
+    - Noun
+        - animal
 - Korean
     - Noun
         - animal
